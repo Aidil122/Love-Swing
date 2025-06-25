@@ -501,10 +501,12 @@
         </div>
       </div>
     </div>
-    <audio autoplay loop>
-      <source src="lagu.mp3" type="audio/mpeg" />
-      Browser kamu tidak mendukung audio.
-    </audio>
-    <button onclick="document.getElementById('musik').play()">▶️ Putar Musik</button>
+    <audio id="musik" loop>
+  <source src="lagu.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+
+<button onclick="document.getElementById('musik').play()">▶️ Putar Musik</button>
+
   </body>
 </html>
